@@ -37,29 +37,29 @@ void loop() {
     """)
 
 def printImage(image):
-    for i in range (0, 30):
+    for i in range (1, 29):
         print("""    strip1.setPixelColor(""" + str(i) + """, strip1.Color""" + str(image.getpixel((i, 0))) + """);
-    strip1.setPixelColor(""" + str(59-i) + """, strip1.Color""" + str(image.getpixel((i, 1))) + """);""")
+    strip1.setPixelColor(""" + str(57-i) + """, strip1.Color""" + str(image.getpixel((i, 1))) + """);""")
     print("""    strip1.show();""")
 
-    for i in range (0, 30):
+    for i in range (0, 29):
         print("""    strip2.setPixelColor(""" + str(i) + """, strip2.Color""" + str(image.getpixel((i, 2))) + """);
-    strip2.setPixelColor(""" + str(59-i) + """, strip2.Color""" + str(image.getpixel((i, 3))) + """);""")
+    strip2.setPixelColor(""" + str(57-i) + """, strip2.Color""" + str(image.getpixel((i, 3))) + """);""")
     print("""    strip2.show();""")
 
-    for i in range (0, 30):
+    for i in range (0, 29):
         print("""    strip3.setPixelColor(""" + str(i) + """, strip3.Color""" + str(image.getpixel((i, 4))) + """);
-    strip3.setPixelColor(""" + str(59-i) + """, strip3.Color""" + str(image.getpixel((i, 5))) + """);""")
+    strip3.setPixelColor(""" + str(57-i) + """, strip3.Color""" + str(image.getpixel((i, 5))) + """);""")
     print("""    strip3.show();""")
 
-    for i in range (0, 30):
+    for i in range (0, 29):
         print("""    strip4.setPixelColor(""" + str(i) + """, strip4.Color""" + str(image.getpixel((i, 6))) + """);
-    strip4.setPixelColor(""" + str(59-i) + """, strip4.Color""" + str(image.getpixel((i, 7))) + """);""")
+    strip4.setPixelColor(""" + str(57-i) + """, strip4.Color""" + str(image.getpixel((i, 7))) + """);""")
     print("""    strip4.show();""")
 
-    for i in range (0, 30):
+    for i in range (0, 29):
         print("""    strip5.setPixelColor(""" + str(i) + """, strip5.Color""" + str(image.getpixel((i, 8))) + """);
-    strip5.setPixelColor(""" + str(59-i) + """, strip5.Color""" + str(image.getpixel((i, 9))) + """);""")
+    strip5.setPixelColor(""" + str(57-i) + """, strip5.Color""" + str(image.getpixel((i, 9))) + """);""")
     print("""    strip5.show();""")
 
 
